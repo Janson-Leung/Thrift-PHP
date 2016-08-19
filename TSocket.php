@@ -207,7 +207,7 @@ class TSocket extends TTransport {
 
 		$this->handle_ = @socket_create(AF_INET, SOCK_STREAM, SOL_TCP);
 
-		// Create Failed?
+		// Create Failed
 		if ($this->handle_ === FALSE) {
 			$error = "TSocket: Failed to create to {$this->host_}:{$this->port_}";
 			if ($this->debug_) {
