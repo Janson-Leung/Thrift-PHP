@@ -19,8 +19,8 @@ class ThriftClient {
 	private $_module;
 	private $_service;
 	private $_transport;
-	private $_tsh = null;			//thrift socket handle
-	private $_retryTimes = 1;		//重试次数
+	private $_tsh = null;		//thrift socket handle
+	private $_retryTimes = 1;	//重试次数
 	private $_sendTimeout = 10000;	//发送时长：毫秒
 	private $_recvTimeout = 20000;	//接收时长
 
