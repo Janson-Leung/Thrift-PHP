@@ -205,7 +205,7 @@ class ThriftClient {
 		}
 
 		if( ! isset($thrift_config[$this->_module]['host']) || ! isset($thrift_config[$this->_module]['port']) || ! isset($thrift_config[$this->_module]['service'])) {
-			throw new \InvalidArgumentException('ThriftClient: Thrift _host, port or service is not set');
+			throw new \InvalidArgumentException('ThriftClient: Thrift host, port or service is not set');
 		}
 
 		$this->_host = $thrift_config[$this->_module]['host'];
