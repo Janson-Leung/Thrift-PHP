@@ -1,6 +1,6 @@
 <?php
 /**
- * Thrift Stream 客户端
+ * Thrift 客户端
  * @author Janson
  * @create 2016-04-20
  */
